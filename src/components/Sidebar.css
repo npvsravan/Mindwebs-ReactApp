@@ -1,0 +1,77 @@
+.sidebar {
+  width: 300px;
+  background-color: #ffffff;
+  border-right: 1px solid #e0e0e0;
+  padding: 20px;
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-y: auto;
+  height: 100vh;
+}
+
+.sidebar h3,
+.sidebar h4 {
+  margin-top: 0;
+  color: #333;
+}
+
+.sidebar select,
+.sidebar input[type="number"] {
+  width: 100%;
+  padding: 6px 8px;
+  margin: 8px 0;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.rule-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.rule-row input[type="color"] {
+  border: none;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.rule-row select,
+.rule-row input[type="number"] {
+  flex: 1;
+}
+
+.rule-row button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #cc0000;
+  padding: 0 4px;
+  transition: transform 0.2s ease;
+}
+
+.rule-row button:hover {
+  transform: scale(1.2);
+  color: red;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,17 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "timestamp": "2023-01-10"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[[78.460665,17.362653],[78.467016,17.361588],[78.464355,17.355935],[78.460665,17.362653]]]
+      }
+    }
+  ]
+}
+
+

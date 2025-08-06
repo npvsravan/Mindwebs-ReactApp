@@ -1,0 +1,13 @@
+import React from 'react';
+import MapComponent from './components/MapComponent';
+
+const App: React.FC = () => {
+  return (
+    <div className="app-container">
+      <h1 className="app-title">Polygon Dashboard Map</h1>
+      <MapComponent />
+    </div>
+  );
+};
+
+export default App;
