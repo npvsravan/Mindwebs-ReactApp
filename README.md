@@ -25,6 +25,7 @@ npm install
 
 # Run the app locally
 npm run dev
+```
 
  Summary of Libraries Used
 Runtime Dependencies
