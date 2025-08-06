@@ -27,7 +27,9 @@ npm install
 npm run dev
 ```
 
- Summary of Libraries Used
+
+# Summary of Libraries Used
+
 Runtime Dependencies
 react – Core UI library
 
@@ -43,7 +45,8 @@ tailwindcss – Utility-first CSS framework
 
 postcss, autoprefixer, @tailwindcss/postcss – CSS tooling
 
-Dev Dependencies
+# Dev Dependencies
+
 vite – Development/build tool
 
 @vitejs/plugin-react – Vite plugin for React
@@ -52,7 +55,7 @@ typescript – TypeScript support
 
 @types/react, @types/react-dom, @types/leaflet – TypeScript type definitions
 
-💡 Design & Development Remarks
+# Design & Development Remarks
 Modular structure with separate components for map and sidebar controls.
 
 Leaflet is integrated via React-Leaflet for seamless state management.
